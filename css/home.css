@@ -26,6 +26,10 @@ body {
     width: 100%;
 }
 
+#main-logo { 
+    margin-bottom: 5px;
+}
+
 #home-logo img{
     display: block;
     margin: 0 auto 0 auto;
@@ -35,6 +39,7 @@ body {
 }
 
 #home-logo #secondary-logo {
+    background-color: rgba(246, 246, 246, 0.5);
     float: left;
     text-decoration: none;
     text-align: center;
@@ -61,6 +66,7 @@ body {
 }
 
 #center .menu {
+    background-color: rgba(0, 0, 0, 0.5);
     margin: 0 10% 0 6%;
     font-size: 18px;
     position: relative;
