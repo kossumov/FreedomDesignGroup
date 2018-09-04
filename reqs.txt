@@ -1,0 +1,28 @@
+homepage:
+    homepage full screen
+    menu align middle center
+    white header remove
+
+about:
+    remove address
+    remove homepage link
+
+whyus:
+    title: "почему выбирают нас" (with newlines and indents on mobile menu)
+    put text from wotd into 1st paragraph
+    remove 2nd paragraph
+    remove address
+    remove homepage link
+
+projects:
+    add logos carousel before Хронология
+    remove address
+    remove homepage link
+
+catalogue: 
+    title: "Магазин"
+    fix click
+
+contacts:
+    contacts
+    
