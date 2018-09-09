@@ -33,23 +33,23 @@ body {
 #home-logo img{
     display: block;
     margin: 0 auto 0 auto;
-    width: 12%;
+    width: 7%;
     height: auto;
     overflow: hidden;
 }
 
 #home-logo #secondary-logo {
-    background-color: rgba(246, 246, 246, 0.5);
-    float: left;
+    background-color: rgba(147, 146, 146, 0.7);
     text-decoration: none;
     text-align: center;
-    font-size: 50px;
+    font-size: 25px;
     font-family: "Cuprum";
     color: #43474d;
     line-height: normal;
+    display: block;
 
-    margin: 0 20% 0 20%;
-    width: 60%;
+    margin: 20px auto 0 auto;
+    width: 254px;
     height: auto;
 }
 
@@ -58,15 +58,16 @@ body {
 }
 
 #center {
-    height: 20%;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: auto;
     position: absolute;
     z-index: 10;
-    top: 55%;
+    top: 60%;
     width: 100%;
 }
 
 #center .menu {
-    background-color: rgba(0, 0, 0, 0.5);
+    /* background-color: rgba(0, 0, 0, 0.5); */
     margin: 0 10% 0 6%;
     font-size: 18px;
     position: relative;
@@ -88,6 +89,16 @@ body {
     text-align: center;
     display: table-cell;
     line-height: 38px;
+    
+    -webkit-transition: background-color 0.5s ease-out;
+    -moz-transition: background-color 0.5s ease-out;
+    -o-transition: background-color 0.5s ease-out;
+    transition: background-color 0.5s ease-out;
+}
+
+#center .menu ul li:hover{
+    background-color: rgba(0, 0, 0, 0.8);
+    cursor: pointer;
 }
 
 #center .menu ul li::before{
@@ -105,4 +116,24 @@ body {
 
 a {
     text-decoration: none;
+}
+
+
+@media only screen and (max-width: 600px) {
+    #center .menu ul li{
+        width: 100% !important;
+        display: list-item;
+    }
+
+    #home-logo #secondary-logo {
+        font-size: 20px;
+      
+        margin: 20px auto 0 auto;
+        width: 80%;
+        height: auto;
+    }
+
+    #home-logo img{
+        width: 125px;
+    }
 }
