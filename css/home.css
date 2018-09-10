@@ -137,3 +137,16 @@ a {
         width: 125px;
     }
 }
+
+#lang-list {
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    z-index: 1000;
+    color: #FEA631;
+    cursor: pointer;
+}
+
+.lang-box:hover{
+    color: rgb(7, 4, 1);
+}

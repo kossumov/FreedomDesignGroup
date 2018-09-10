@@ -4651,3 +4651,36 @@ section.slider .slide-003 {
     -o-background-size: cover;      
     background-size: cover;  
 }
+
+.en {
+  display: none;
+}
+
+#lang-list {
+  /* position: absolute;
+  right: 2px; */
+  float: left;
+  margin-left: 20px;
+
+  z-index: 1000;
+  color: #FEA631;
+  cursor: pointer;
+}
+
+.lang-box{
+  height: 20px;
+  z-index: 100000;
+}
+
+.lang-box:hover{
+  color: rgb(7, 4, 1);
+}
+
+@media screen and (max-width: 958px) {
+
+  #lang-list {
+    float: left;
+    margin-left: 3px;
+    margin-top: 50px
+  }
+}

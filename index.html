@@ -12,6 +12,18 @@
 	<link href="https://fonts.googleapis.com/css?family=Cuprum:300,400&amp;subset=cyrillic" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
 	<link rel="stylesheet" href="css/home.css" type="text/css" media="all" />
+
+	<script src="js/libs/jquery-1.11.0.min.js"></script>
+	<script src="js/libs/all_in_one_libs.js"></script>
+	<script src="js/front.js"></script>
+    <script>
+		// $( document ).ready(function() {
+		// 	$('.en').hide();
+		// });
+    </script>
+
+	<!-- <script src="js/libs/localize.js"></script> -->
+	<!-- <script src="js/libs/localize.min.js"></script> -->
 </head>
 
 <body class="home-page template-home-one-page preloader">
@@ -33,6 +45,11 @@
 
 		<div id="content">
 
+			<div id="lang-list">
+				<div id="lang-ru" class="lang-box">РУС</div>
+				<div id="lang-en" class="lang-box">ENG</div>
+			</div>
+
 			<div id="home-logo">
 				<div id="main-logo">
 						<img src="img/logo_.png" onclick="location.href='index.html'"/>
@@ -40,9 +57,6 @@
 				<div id="secondary-logo"><em>F</em>REEDOM <em>D</em>ESIGN <em>G</em>ROUP</div>
 			</div>
 
-			<div class="lang-box-home">
-
-			</div>
 
 			<section class="slider" id="slider">
 				<ul class="sequence-canvas">
@@ -74,20 +88,21 @@
 				<div class="menu bs-single-menu">
 					<ul class="list-unstyled list-group">
 						<li onClick="location.href='about.html'">
-							<a>О компании</a>
+							<a><span class='en'>About</span><span class='ru'>О компании</span></a>
 						</li>
 						<li onClick="location.href='benefit.html'">
-							<a>Почему выбирают нас</a>
+							<a><span class='en'>Why us</span><span class='ru'>Почему выбирают нас</span></a>
 						</li>
 						<li onClick="location.href='portfolio.html'">
-							<a>Проекты</a>
+							<a><span class='en'>Projects</span><span class='ru'>Проекты</span></a>
 						</li>
 						<li onClick="location.href='catalogue.html'">
-							<a>Каталог</a>
+							<a><span class='en'>Catalogue</span><span class='ru'>Каталог</span></a>
 						</li>
 						<li onClick="location.href='contacts.html'">
-							<a>Контакты</a>
+							<a><span class='en'>Contacts</span><span class='ru'>Контакты</span></a>
 						</li>
+						<!-- <div id='tesina'><span class='en'>aee</span><span class='ru'>aee</span></div> -->
 					</ul>
 				</div>
 			</div>
@@ -95,10 +110,10 @@
 		</div>
 
 	</div>
-	<script src="js/libs/jquery-1.11.0.min.js"></script>
-	<script src="js/libs/all_in_one_libs.js"></script>
-	<script src="js/front.js"></script>
 	
-
+	
+	
+	
+	
 </body>
 </html>

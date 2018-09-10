@@ -644,6 +644,21 @@ jQuery.noConflict()( function($){
 					}
 					
 				}
+
+				// cookies - setup when uploaded to server
+				// document.cookie = "lang=ru";
+				// console.log(document.cookie);
+
+				$('#lang-ru').click(function() {
+					$('.en').hide();
+					$('.ru').show();
+				  });
+				
+				$('#lang-en').click(function() {
+					$('.en').show();
+					$('.ru').hide();
+				});
+				
 			});
 		
 		},
