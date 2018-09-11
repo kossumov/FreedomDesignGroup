@@ -645,18 +645,24 @@ jQuery.noConflict()( function($){
 					
 				}
 
+
 				// cookies - setup when uploaded to server
-				// document.cookie = "lang=ru";
-				// console.log(document.cookie);
+				console.log("before");
+				console.log(document.cookie);
+				document.cookie = "lang=ru";
+				console.log("after");
+				console.log(document.cookie);
 
 				$('#lang-ru').click(function() {
 					$('.en').hide();
 					$('.ru').show();
+					document.cookie = "lang=ru";
 				  });
 				
 				$('#lang-en').click(function() {
 					$('.en').show();
 					$('.ru').hide();
+					document.cookie = "lang=en";
 				});
 				
 			});
